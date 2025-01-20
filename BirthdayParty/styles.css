@@ -1,0 +1,63 @@
+html {
+    height: 100%;
+    background:-moz-radial-gradient(gold, yellow);
+}
+body {
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+#footer {
+    border: none;
+    background-color: black;
+    color: white;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+}
+.Links {
+    display: block;
+}
+a {
+    padding: 5%;
+}
+.Links img {
+    width: 7.5%;
+    max-width: 40px;
+    transition-duration: .5s;
+}
+.Links img:hover {
+    filter: invert(70%);
+    transform: scale(1.5);
+}
+.footertext {
+    width: 175%;
+}
+.text-container {
+    width: 50%;
+    padding: 1%;
+    margin: auto;
+    line-height: 200%;
+}
+h1 {
+    font: 3em "Lucida Handwriting", cursive;
+}
+p {
+    font-family: monospace;
+    font: .9em "Lucida Console", Monospace;
+}
+h2 {
+    font-family: fantasy;
+    font: 2em "Copperplate", fantasy;
+}
+hr {
+    width: 50%;
+    color: rgb(189, 214, 218);
+}
+.About {
+    padding-bottom: 10%;
+}
