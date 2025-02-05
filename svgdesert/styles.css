@@ -1,0 +1,60 @@
+* {
+    height: 100%;
+    width: 100%;
+}
+body {
+    overflow: hidden;
+}
+.art {
+    display: block;
+    margin: auto;
+    position: absolute;
+}
+#sky {
+    z-index: 1;
+}
+#sun {
+    z-index: 2;
+    animation: sun 1s forwards;
+    transition: .5s ease;
+}
+#duneback {
+    z-index: 3;
+    animation: dune1 1.5s forwards;
+    transition: .5 ease;
+}
+#town {
+    z-index: 4;
+    animation: town 2s forwards;
+    transition: .5 ease;
+}
+#cactus {
+    z-index: 5;
+    animation: cactus 2.5s forwards;
+    transition: .5 ease;
+}
+#dunes {
+    z-index: 6;
+    animation: dune2 3s forwards;
+    transition: .5 ease;
+}
+@keyframes sun {
+    0% {transform: translateY(0%, 0%)}
+    100% {transform: translate(-10%, -100%);}
+}
+@keyframes dune1{
+    0% {transform: translateY(0%)}
+    100% {transform: translateY(-200%);}
+}
+@keyframes town{
+    0% {transform: translateY(0%);}
+    100% {transform: translateY(-300%);}
+}
+@keyframes cactus{
+    0% {transform: translateY(0%)}
+    100% {transform: translateY(-400%);}
+}
+@keyframes dune2{
+    0% {transform: translateY(0%);}
+    100% {transform: translateY(-475%);}
+}
