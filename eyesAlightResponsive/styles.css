@@ -1,0 +1,242 @@
+*   {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    padding: none;
+    overflow: hidden;
+    }
+
+    body {
+    display: grid;
+    grid-template-columns: repeat(5, .5fr);
+    grid-auto-rows: 200px;
+    gap: -100px;
+    place-items: center stretch;
+    min-height: 100vh;
+    background: black;
+    }
+/* create eye */
+    .eyes {
+        display: flex;
+        gap: 5%;
+        padding: 5%;
+        width: 20%;
+        justify-content: center;
+        align-items: center;
+        animation: eyewave ease-in-out 5s infinite;
+    }
+
+    .eyes div {
+        position: relative;
+        width: 100%;
+        height: 20%;
+        aspect-ratio: 1;
+        background: white;
+        border-radius: 40%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .eyes div:hover {
+        background: -moz-radial-gradient(yellow, gold);
+    }
+
+    /* create pupil*/
+    .eyes div i {
+        position: absolute;
+        width: 40%;
+        height: 40%;
+        aspect-ratio: 1;
+        background: black;
+        border-radius: 50%;
+    }
+    /* got bored and decided to do this as well */
+    .q1 {
+        animation: q1 ease-in-out 5s infinite;
+    }
+    @keyframes q1 {
+        0% {opacity: 0%;}
+        50% {opacity: 100%;}
+        100% {opacity: 0%;}
+    }
+    .q2 {
+        animation: q2 ease-in-out 5s infinite;
+    }
+    @keyframes q2 {
+        0% {opacity: 0%;}
+        50% {opacity: 100%;}
+        100% {opacity: 0%;}
+    }
+    .q3 {
+        animation: q3 ease-in-out 5s infinite;
+    }
+    @keyframes q3 {
+        0% {opacity: 0%;}
+        50% {opacity: 100%;}
+        100% {opacity: 0%;}
+    }
+    .q4 {
+        animation: q4 ease-in-out 5s infinite;
+    }
+    @keyframes q4 {
+        0% {opacity: 0%;}
+        50% {opacity: 100%;}
+        100% {opacity: 0%;}
+    }
+    .q5 {
+        animation: q5 ease-in-out 5s infinite;
+    }
+    @keyframes q5 {
+        0% {opacity: 0%;}
+        50% {opacity: 100%;}
+        100% {opacity: 0%;}
+    }
+    .q6 {
+        animation: q6 ease-in-out 5s infinite;
+    }
+    @keyframes q6 {
+        0% {opacity: 20%;}
+        40% {opacity: 100%;}
+        80% {opacity: 0%;}
+        100% {opacity: 20%;}
+    }
+    .q7 {
+        animation: q7 ease-in-out 5s infinite;
+    }
+    @keyframes q7 {
+        0% {opacity: 20%;}
+        40% {opacity: 100%;}
+        80% {opacity: 0%;}
+        100% {opacity: 20%;}
+    }
+    .q8 {
+        animation: q8 ease-in-out 5s infinite;
+    }
+    @keyframes q8 {
+        0% {opacity: 20%;}
+        40% {opacity: 100%;}
+        80% {opacity: 0%;}
+        100% {opacity: 20%;}
+    }
+    .q9 {
+        animation: q9 ease-in-out 5s infinite;
+    }
+    @keyframes q9 {
+        0% {opacity: 20%;}
+        40% {opacity: 100%;}
+        80% {opacity: 0%;}
+        100% {opacity: 20%;}
+    }
+    .q10 {
+        animation: q10 ease-in-out 5s infinite;
+    }
+    @keyframes q10 {
+        0% {opacity: 20%;}
+        40% {opacity: 100%;}
+        80% {opacity: 0%;}
+        100% {opacity: 20%;}
+    }
+    .q11 {
+        animation: q11 ease-in-out 5s infinite;
+    }
+    @keyframes q11 {
+        0% {opacity: 40%;}
+        30% {opacity: 100%;}
+        60% {opacity: 0%;}
+        100% {opacity: 40%;}
+    }
+    .q12 {
+        animation: q12 ease-in-out 5s infinite;
+    }
+    @keyframes q12 {
+        0% {opacity: 40%;}
+        30% {opacity: 100%;}
+        60% {opacity: 0%;}
+        100% {opacity: 40%;}
+    }
+    .q13 {
+        animation: q13 ease-in-out 5s infinite;
+    }
+    @keyframes q13 {
+        0% {opacity: 40%;}
+        30% {opacity: 100%;}
+        60% {opacity: 0%;}
+        100% {opacity: 40%;}
+    }
+    .q14 {
+        animation: q14 ease-in-out 5s infinite;
+    }
+    @keyframes q14 {
+        0% {opacity: 40%;}
+        30% {opacity: 100%;}
+        60% {opacity: 0%;}
+        100% {opacity: 40%;}
+    }
+    .q15 {
+        animation: q15 ease-in-out 5s infinite;
+    }
+    @keyframes q15 {
+        0% {opacity: 40%;}
+        30% {opacity: 100%;}
+        60% {opacity: 0%;}
+        100% {opacity: 40%;}
+    }
+    .q16 {
+        animation: q16 ease-in-out 5s infinite;
+    }
+    @keyframes q16 {
+        0% {opacity: 60%;}
+        20% {opacity: 100%;}
+        40% {opacity: 0%;}
+        100% {opacity: 60%;}
+    }
+    .q17 {
+        animation: q17 ease-in-out 5s infinite;
+    }
+    @keyframes q17 {
+        0% {opacity: 60%;}
+        20% {opacity: 100%;}
+        40% {opacity: 0%;}
+        100% {opacity: 60%;}
+    }
+    .q18 {
+        animation: q18 ease-in-out 5s infinite;
+    }
+    @keyframes q18 {
+        0% {opacity: 60%;}
+        20% {opacity: 100%;}
+        40% {opacity: 0%;}
+        100% {opacity: 60%;}
+    }
+    .q19 {
+        animation: q19 ease-in-out 5s infinite;
+    }
+    @keyframes q19 {
+        0% {opacity: 60%;}
+        20% {opacity: 100%;}
+        40% {opacity: 0%;}
+        100% {opacity: 60%;}
+    }
+    .q20 {
+        animation: q20 ease-in-out 5s infinite;
+    }
+    @keyframes q20 {
+        0% {opacity: 60%;}
+        20% {opacity: 100%;}
+        40% {opacity: 0%;}
+        100% {opacity: 60%;}
+    }
+    @media all and (max-width: 100rem){
+        body { grid-template-columns: repeat(4,1fr); }
+      }
+    @media all and (max-width: 75rem){
+        body { grid-template-columns: repeat(3,1fr); }
+      }
+    @media all and (max-width: 50rem){
+        body { grid-template-columns: repeat(2,1fr); }
+      }
+    @media all and (max-width: 25rem){
+        body { grid-template-columns: repeat(1,1fr); }
+      }
