@@ -1,0 +1,51 @@
+.btn-lg{
+    width: 50%;
+    height: 120%;
+}
+.body{
+    background: burlywood;
+    height: 100%;
+    width: 100%;
+}
+header{
+    background: rgb(172, 109, 245);
+    padding-bottom: 18.5%;
+    padding-top: 2%;
+    align-items: center;
+}
+.schools-container{
+    padding-top: 5%;
+    padding-bottom: 20%;
+}
+.scrollspy-container{
+    padding-top: 5%;
+}
+.footer {
+    border: none;
+    background-color: gray;
+    color: white;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    padding: 20px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    padding-top: 40px;
+}
+.offcanvas-body{
+    background: burlywood;
+}
+.offcanvas-header{
+    background: rgb(153, 121, 79);
+}
+.card{
+    margin: 2rem;
+}
+.info-container{
+    align-items: center;
+    align-content: center;
+    margin-top: 7.5%;
+}
